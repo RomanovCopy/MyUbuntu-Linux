@@ -14,7 +14,8 @@ network:
       gateway4: 10.0.2.2
       nameservers:
         addresses:
-          - 127.0.0.53
+          - 1.1.1.1 
+          - 8.8.8.8
 
 exit//выходим из root
 sudo netplan try//проверяем конфигурацию
